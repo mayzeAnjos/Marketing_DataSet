@@ -1,5 +1,4 @@
-## Título:
-***Previsão de Subscrição de Depósito a Prazo em Campanhas de Marketing Bancário***
+# Previsão de Subscrição de Depósito a Prazo em Campanhas de Marketing Bancário
 
 ---
 
@@ -46,7 +45,7 @@ Marketing_DataSet/
 ##  Como Executar o Notebook no Google Colab
 1. Clique no botão abaixo para abrir o notebook diretamente no ambiente do Google Colab:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SEU_USUARIO_GITHUB/NOME_DO_REPOSITORIO/blob/main/NOME_DO_NOTEBOOK.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mayzeanjos/Marketing_DataSet/blob/main/Projeto_IA.ipynb)
 
 2. No menu superior do Colab, clique em **Ambiente de execução** -> **Executar tudo** (ou pressione `Ctrl + F9`).
 3. Aguarde o processamento de todas as células de código até a geração dos gráficos finais.
