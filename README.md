@@ -1,3 +1,8 @@
+## Título:
+***Previsão de Subscrição de Depósito a Prazo em Campanhas de Marketing Bancário***
+
+---
+
 ## Objetivo
 
 Desenvolver um modelo de Machine Learning para prever se um cliente irá subscrever (ou não) um depósito a prazo em uma campanha de marketing direto de uma instituição bancária portuguesa. O objetivo é auxiliar o banco a identificar clientes com maior propensão a adquirir o produto, otimizando campanhas telefônicas e reduzindo custos.
@@ -30,6 +35,14 @@ O carregamento é feito diretamente no notebook através da biblioteca `ucimlrep
 
 ---
 
+## Organização dos Arquivos
+
+Marketing_DataSet/
+├── Projeto_IA.ipynb          # Notebook principal contendo todo o fluxo do projeto
+└── README.md                 # Documentação do projeto com todas as informações exigidas
+
+---
+
 ##  Como Executar o Notebook no Google Colab
 1. Clique no botão abaixo para abrir o notebook diretamente no ambiente do Google Colab:
 
@@ -37,6 +50,28 @@ O carregamento é feito diretamente no notebook através da biblioteca `ucimlrep
 
 2. No menu superior do Colab, clique em **Ambiente de execução** -> **Executar tudo** (ou pressione `Ctrl + F9`).
 3. Aguarde o processamento de todas as células de código até a geração dos gráficos finais.
+
+---
+
+## Modelos Utilizados
+
+Foram utilizados os seguintes modelos de classificação:
+
+| Modelo | Descrição |
+|--------|-----------|
+| **DummyClassifier (Baseline)** | Modelo simples que sempre prevê a classe majoritária, usado como referência. |
+| **SGDClassifier** | Classificador linear com gradiente descendente estocástico. |
+| **RandomForestClassifier** | Modelo baseado em árvores de decisão em conjunto (ensemble). |
+
+---
+
+## Principais Resultados
+
+| Modelo | Acurácia | Precisão | Revocação | F1-Score |
+|--------|----------|----------|-----------|----------|
+| Dummy (Baseline) | X,XX% | X,XX% | X,XX% | X,XX% |
+| SGDClassifier | X,XX% | X,XX% | X,XX% | X,XX% |
+| RandomForestClassifier | X,XX% | X,XX% | X,XX% | X,XX% |
 
 ---
 
