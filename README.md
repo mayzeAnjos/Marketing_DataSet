@@ -37,7 +37,9 @@ O carregamento é feito diretamente no notebook através da biblioteca `ucimlrep
 ## Organização dos Arquivos
 
 Marketing_DataSet/
+
 ├── Projeto_IA.ipynb          # Notebook principal contendo todo o fluxo do projeto
+
 └── README.md                 # Documentação do projeto com todas as informações exigidas
 
 ---
