@@ -67,11 +67,19 @@ Foram utilizados os seguintes modelos de classificação:
 
 ## Principais Resultados
 
-| Modelo | Acurácia | Precisão | Revocação | F1-Score |
-|--------|----------|----------|-----------|----------|
-| Dummy (Baseline) | X,XX% | X,XX% | X,XX% | X,XX% |
-| SGDClassifier | X,XX% | X,XX% | X,XX% | X,XX% |
-| RandomForestClassifier | X,XX% | X,XX% | X,XX% | X,XX% |
+| Modelo | Acurácia | Precisão (Classe yes) | Revocação (Classe yes) | F1-Score (Classe yes) |
+|--------|----------|----------------------|------------------------|----------------------|
+| Baseline (Dummy) | 88,30% | 0,00% | 0,00% | 0,00% |
+| SGDClassifier | 80,65% | 31,20% | 54,25% | 39,61% |
+| Regressão Logística | 75,21% | 26,28% | 62,00% | 36,92% |
+| Random Forest | 88,69% | 52,83% | 30,91% | 39,00% |
+| XGBoost | 89,25% | 59,35% | 25,80% | 35,97% |
+
+**Melhor modelo (F1-Score):** Random Forest (0,39)
+
+**Melhor modelo (Recall - para capturar mais clientes):** Regressão Logística (0,62)
+
+**Observação:** A acurácia isolada não é uma métrica confiável neste problema, pois o dataset é desbalanceado (88,3% de "no" e 11,7% de "yes"). O Baseline (Dummy) atinge 88,3% de acurácia apenas prevendo a classe majoritária, mas não identifica nenhum cliente que realmente subscreveu (Recall = 0,0).
 
 ---
 
