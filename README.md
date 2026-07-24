@@ -93,7 +93,7 @@ Foram utilizados os seguintes modelos de classificação:
 ---
 
 ##  Apresentação em Vídeo
-- **Link do Vídeo:** [Clique aqui para assistir à apresentação do projeto](https://LINK_DO_SEU_VIDEO_AQUI)
+- **Link do Vídeo:** [Clique aqui para assistir à apresentação do projeto](https://youtu.be/UxlNy8DXONo?si=127ETrkSSnqgMlzz)
 
 ---
 
